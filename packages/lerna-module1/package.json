@@ -1,0 +1,26 @@
+{
+  "name": "lerna-module1",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "JYH <salvayh@thingspire.com>",
+  "homepage": "https://github.com/junsun0708/yarn-workspaces-lerna-nx#readme",
+  "license": "ISC",
+  "main": "lib/lerna-module1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junsun0708/yarn-workspaces-lerna-nx.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/lerna-module1.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/junsun0708/yarn-workspaces-lerna-nx/issues"
+  }
+}
